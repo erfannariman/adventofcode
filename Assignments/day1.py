@@ -28,6 +28,3 @@ def sum_all_fuels():
     fuels = [calculate_fuel(mass) for mass in data]
 
     return sum(fuels)
-
-
-print(sum_all_fuels())
