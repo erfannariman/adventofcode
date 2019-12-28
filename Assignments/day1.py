@@ -28,3 +28,8 @@ def sum_all_fuels():
     fuels = [calculate_fuel(mass) for mass in data]
 
     return sum(fuels)
+
+
+if __name__ == '__main__':
+    answer = sum_all_fuels()
+    print(answer)

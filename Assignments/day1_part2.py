@@ -20,6 +20,6 @@ def calculate_corrected_fuel(filename):
     return sum(all_fuels)
 
 
-total_fuel = calculate_corrected_fuel('day1')
-
-print(total_fuel)
+if __name__ == '__main__':
+    answer = calculate_corrected_fuel('day1')
+    print(answer)
